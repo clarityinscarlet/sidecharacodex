@@ -1,0 +1,74 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>Side Chara Codex</title>
+    <meta name="description" content="Side Chara Codex">
+    <!-- <meta name="author" content="sunny_parasol @ twitter"> -->
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>danmei side character codex</h1>
+        <nav>
+            <ul>
+                <!-- <li><a href="#codex">codex</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#faq">faq</a></li> -->
+                <li onclick="console.log('codex clicked')"><a href="#codex">codex</a></li>
+                <li onclick="console.log('about clicked')"><a href="#about">about</a></li>
+                <li onclick="console.log('faq clicked')"><a href="#faq">faq</a></li>
+            </ul>
+            <!-- TODO switch b/w sections? via https://css-tricks.com/organic-tabs/ -->
+            <!-- TODO maybe nice fade-in? https://michalsnik.github.io/aos/ -->
+        </nav>
+    </header>
+    <main>
+        ======================================<br/>
+        these might become popups at some pt...tbd
+
+        <section id="about" class="hide">
+            <h2>about</h2>
+            hi hello! i'm claire, aka @sunny_parasol on twitter. research sucks ass there i said it
+        <section id="faq" class="hide">
+            <h2>faq</h2>
+            question? answer! answer? question!
+            <!-- TODO work in progress (wip): https://www.w3schools.com/howto/howto_js_accordion.asp  -->
+        </section>
+        ======================================
+        <section id="codex">
+            <!-- TODO [this part will be served dynamically once i figure out if i'm using html/css/js or caving to react] -->
+            <h2>codex</h2>
+            <div class="character">
+                <h3>shi mei</h3>
+                <div class="chapters">
+                    <div class="chapterbox">
+                        <div class="ch-left">
+                            <a href="https://docs.google.com/document/d/1nM__Owx6xOwMaEingWea0KfxeyZDsEQb4bGe7aaZy9A">CH 2</a>
+                        </div>
+                        <div class="ch-right">
+                            mo ran sees shi mei for the first time, remembers 0.5 death.
+                            <details class="quotes">
+                                <summary>quotes</summary>
+                                <ul>
+                                    <li>"lorem ipsum ipsi dipsy doret"</li>
+                                    <li>"yadda yadda blah blah blah meatbun knife"</li>
+                                </ul>
+                            </details>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        built with love by <a href="twitter.com/sunny_parasol">claire</a>!
+    </footer>
+  <!-- <script src="js/scripts.js"></script> -->
+</body>
+</html>

@@ -1,0 +1,61 @@
+html {
+    position: relative;
+    min-height: 100%;
+    text-align: center;
+}
+
+/* inline nav */
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+}
+
+/* codex */
+
+.character {
+    border: 5px rounded red;
+}
+
+.chapters {
+    width: 100%;
+    overflow: hidden;
+}
+
+.chapterbox {
+    display: table;
+    width: 100%;
+}
+
+.chapterbox>div {
+    display: table-cell;
+}
+
+/* .ch-left {
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+.quotes {
+    width: 50%;
+} */
+
+/* sticky footer */
+
+body {
+    margin: 0 0 20px; /* bottom = footer height */
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+}
