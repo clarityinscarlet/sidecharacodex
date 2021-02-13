@@ -2,6 +2,8 @@ html {
     position: relative;
     min-height: 100%;
     text-align: center;
+    background-color: #9acbff;
+    color: #002c4c;
 }
 
 /* inline nav */
@@ -35,16 +37,6 @@ nav li {
 .chapterbox>div {
     display: table-cell;
 }
-
-/* .ch-left {
-    width: 20%;
-    height: 100%;
-    float: left;
-}
-
-.quotes {
-    width: 50%;
-} */
 
 /* sticky footer */
 
