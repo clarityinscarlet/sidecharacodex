@@ -3,7 +3,6 @@ html {
     color: #002c4c;
     font-family: 'Verdana', sans-serif;
     min-height: 100%;
-    padding: 10px;
     position: relative;
 }
 
@@ -111,13 +110,13 @@ option {
 /* sticky footer */
 
 body {
-    margin: 0 0 40px; /* bottom = footer height */
+    margin: 0 0 20px; /* bottom = footer height */
 }
 
 footer {
     position: absolute;
     left: 0;
-    bottom: 10px;
+    bottom: 0;
     height: 30px;
     width: 100%;
     text-align: center;
