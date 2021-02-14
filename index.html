@@ -14,7 +14,7 @@
 
 <body>
     <header>
-        <h1>danmei side character codex</h1>
+        <h1>side character codex</h1>
         <nav>
             <ul>
                 <!-- <li><a href="#codex">codex</a></li>
@@ -29,7 +29,7 @@
         </nav>
     </header>
     <main>
-        ======================================<br/>
+        <!-- ======================================<br/>
         these might become popups at some pt...tbd
 
         <section id="about" class="hide">
@@ -38,22 +38,34 @@
         <section id="faq" class="hide">
             <h2>faq</h2>
             question? answer! answer? question!
-            <!-- TODO work in progress (wip): https://www.w3schools.com/howto/howto_js_accordion.asp  -->
+            // TODO work in progress (wip): https://www.w3schools.com/howto/howto_js_accordion.asp 
         </section>
-        ======================================
+        ====================================== -->
         <section id="codex">
             <!-- TODO [this part will be served dynamically once i figure out if i'm using html/css/js or caving to react] -->
-            <h2>codex</h2>
+            <!-- <h2>codex</h2> -->
+            <div class="selectors">
+                <select name="novel" id="novels">
+                    <option value="erha">erha</option>
+                </select>
+                <select name="characters" id="characters">
+                    <option value="erha-shi_mei">Shi Mei</option>
+                    <option value="erha-song_qiutong">Song Qiutong</option>
+                </select>
+            </div>
             <div class="character">
                 <h3>shi mei</h3>
                 <div class="chapters">
                     <div class="chapterbox">
                         <div class="ch-left">
-                            <a href="https://docs.google.com/document/d/1nM__Owx6xOwMaEingWea0KfxeyZDsEQb4bGe7aaZy9A">CH 2</a>
+                            <span class="chaptername">
+                                <a href="https://docs.google.com/document/d/1nM__Owx6xOwMaEingWea0KfxeyZDsEQb4bGe7aaZy9A" target="_blank">CH 2: This Venerable One Lives</a>
+                            </span>
                         </div>
                         <div class="ch-right">
                             <span>mo ran sees shi mei for the first time, remembers 0.5 death.</span>
                             <details class="quotes">
+                                <!-- thought: could make summary first ~50 characters of each quote ... etc. -->
                                 <summary>quotes</summary>
                                 <ul>
                                     <li>"lorem ipsum ipsi dipsy doret"</li>

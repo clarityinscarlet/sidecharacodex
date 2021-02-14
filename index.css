@@ -1,12 +1,35 @@
 html {
     position: relative;
     min-height: 100%;
-    text-align: center;
-    background-color: #9acbff;
+    /* text-align: center; */
+    background-color: #dde4ff;
     color: #002c4c;
+    padding: 10px;
+    font-family: 'Verdana', sans-serif;
 }
 
-/* inline nav */
+a:link, a:visited {
+    color: #0e4e7c;
+    /* text-decoration: none; */
+}
+
+a:hover, a:active {
+    color: white;
+    /* text-decoration: underline; */
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+details {
+    margin: 10px;
+}
+
+nav {
+    text-align: center;
+    padding-bottom: 20px;
+}
 
 nav ul {
     list-style-type: none;
@@ -16,26 +39,75 @@ nav ul {
 
 nav li {
     display: inline;
+    margin: auto;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 5px;
+}
+
+li {
+    padding: 2px 0;
+}
+
+select {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    display: block;
+    width: 60%;
+    margin: 10px;
+}
+
+option {
+    background-color: transparent;
 }
 
 /* codex */
+#codex {
+    width: 80%;
+    margin: auto;
+    border: 5px dotted white;
+}
+
+#codex>div {
+    display: table-cell;
+}
 
 .character {
-    border: 5px rounded red;
+    border: 5px dotted red;
+    widtH: 75%;
 }
 
 .chapters {
-    width: 100%;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
     overflow: hidden;
+    border: 5px dotted orange;
 }
 
 .chapterbox {
     display: table;
     width: 100%;
+    border: 5px dotted green;
 }
 
 .chapterbox>div {
+    padding: 5px 10px;
     display: table-cell;
+}
+
+.ch-left {
+    text-align: center;
+    border: 5px dotted blue;
+}
+/* TODO: when in mobile, stack instead of side to side */
+.ch-right {
+    width: 75%;
+    border: 5px dotted purple;
 }
 
 /* sticky footer */

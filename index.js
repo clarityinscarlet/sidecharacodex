@@ -9,7 +9,7 @@ const erha = {
     },
 };
 
-const erha_shimei = {
+const erha_shi_mei = {
     name: 'shi mei | shi mingjing',
     chapterList: {
         2: {
