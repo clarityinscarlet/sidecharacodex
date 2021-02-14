@@ -1,21 +1,18 @@
 html {
-    position: relative;
-    min-height: 100%;
-    /* text-align: center; */
     background-color: #dde4ff;
     color: #002c4c;
-    padding: 10px;
     font-family: 'Verdana', sans-serif;
+    min-height: 100%;
+    padding: 10px;
+    position: relative;
 }
 
 a:link, a:visited {
     color: #0e4e7c;
-    /* text-decoration: none; */
 }
 
 a:hover, a:active {
     color: white;
-    /* text-decoration: underline; */
 }
 
 h1, h2, h3 {
@@ -57,6 +54,7 @@ select {
     border: none;
     border-bottom: 2px solid black;
     display: block;
+    font-family: 'Courier New', monospace;
     width: 60%;
     margin: 10px;
 }
