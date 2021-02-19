@@ -78,7 +78,7 @@ option {
     widtH: 75%;
 }
 
-.chapters {
+.chapterlist {
     width: 80%;
     margin: 20px auto;
     padding: 20px;
@@ -86,13 +86,13 @@ option {
     border: 5px dotted orange;
 }
 
-.chapterbox {
+.chapter {
     display: table;
     width: 100%;
     border: 5px dotted green;
 }
 
-.chapterbox>div {
+.chapter>div {
     padding: 5px 10px;
     display: table-cell;
 }
