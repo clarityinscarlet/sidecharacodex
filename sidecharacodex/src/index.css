@@ -1,0 +1,123 @@
+html {
+    background-color: #dde4ff;
+    color: #002c4c;
+    font-family: 'Verdana', sans-serif;
+    min-height: 100%;
+    position: relative;
+}
+
+a:link, a:visited {
+    color: #0e4e7c;
+}
+
+a:hover, a:active {
+    color: white;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+details {
+    margin: 10px;
+}
+
+nav {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: auto;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 5px;
+}
+
+li {
+    padding: 2px 0;
+}
+
+select {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    display: block;
+    font-family: 'Courier New', monospace;
+    width: 60%;
+    margin: 10px;
+}
+
+option {
+    background-color: transparent;
+}
+
+/* codex */
+#codex {
+    width: 60%;
+    margin: auto;
+    border: 5px dotted white;
+}
+
+#codex>div {
+    display: table-cell;
+}
+
+.character {
+    border: 5px dotted red;
+    widtH: 75%;
+}
+
+.chapterlist {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    overflow: hidden;
+    border: 5px dotted orange;
+}
+
+.chapter {
+    display: table;
+    width: 100%;
+    border: 5px dotted green;
+}
+
+.chapter>div {
+    padding: 5px 10px;
+    display: table-cell;
+}
+
+.ch-left {
+    text-align: center;
+    border: 5px dotted blue;
+}
+/* TODO: when in mobile, stack instead of side to side */
+.ch-right {
+    width: 75%;
+    border: 5px dotted purple;
+}
+
+/* sticky footer */
+
+body {
+    margin: 0 0 20px; /* bottom = footer height */
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+}
