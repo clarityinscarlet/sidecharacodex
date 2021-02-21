@@ -1,4 +1,4 @@
-import SingleChapter from './SingleChapter';
+import SingleChapter from './Chapter';
 
 const ChapterList = () => {
     return (
