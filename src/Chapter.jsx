@@ -10,7 +10,7 @@ const Chapter = () => {
             </div>
             <div className="ch-right">
                 <span>shi mei's first appearance.</span>
-                <details className="quotes">
+                <details class="quotes">
                     <summary>quotes</summary>
                     <ul>
                         <li>"lorem ipsum ipsi dipsy doret"</li>
