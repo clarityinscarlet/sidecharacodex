@@ -1,25 +1,15 @@
+import React from 'react';
 import './index.css';
+import Header from './Header';
 import Codex from './Codex';
+import Footer from './Footer';
 
 function App() {
   return (
     <div className="App">
-      <header>
-        <h1>side character codex</h1>
-        <nav>
-            <ul>
-                <li onClick={() => console.log('codex clicked')}><a href="#codex">codex</a></li>
-                <li onClick={() => console.log('about clicked')}><a href="#about">about</a></li>
-                <li onClick={() => console.log('faq clicked')}><a href="#faq">faq</a></li>
-            </ul>
-        </nav>
-      </header>
-      <main>
-        <Codex />
-      </main>
-      <footer>
-        built by <a href="https://twitter.com/sunny_parasol">claire</a>!      
-      </footer>
+      <Header />
+      <Codex />
+      <Footer />
     </div>
   );
 }
