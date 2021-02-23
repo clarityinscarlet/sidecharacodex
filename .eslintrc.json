@@ -15,6 +15,7 @@
   "rules": {
     "camelcase": 1,
     "comma-dangle": 0,
+    "no-console": "off",
     "no-unused-vars": "warn",
     "prettier/prettier": "error",
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]

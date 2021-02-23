@@ -14,9 +14,9 @@ export const shiMei = {
 };
 
 export const erha = {
+  id: 'erha',
   chinese: '二哈和他的白猫师尊',
   english: 'the husky and his white cat shizun',
-  nickname: ['erha', '2ha'],
   chapterlinks: {
     '1to9':
       'https://docs.google.com/document/d/1nM__Owx6xOwMaEingWea0KfxeyZDsEQb4bGe7aaZy9A/edit',
@@ -25,5 +25,5 @@ export const erha = {
     '20to29':
       'https://docs.google.com/document/d/11fKvcmGpG60IKVOka8BEBoV6_V2hE50hCybZXFP8ST4/edit'
   },
-  characters: [shiMei, 'rong jiu']
+  characters: { 'shi mei': shiMei }
 };

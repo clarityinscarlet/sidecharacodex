@@ -1,24 +1,22 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Character from './Character';
-import { shiMei, erha } from './datatest/erha';
+import { erha } from './datatest/erha';
+import useDropdown from './useDropdown';
 
-const novels = ['none selected', 'erha', 'tgcf'];
+const novels = { erha };
 
 const Codex = () => {
-  console.log(erha);
-  const [novel, setNovel] = useState('');
-  const [character, setCharacter] = useState('');
-  console.log(erha.characters[0]);
+  const [novel, NovelDropdown] = useDropdown('novels', Object.keys(novels));
+  const [character, CharaDropdown] = useDropdown(
+    'characters',
+    novel ? Object.keys(novels[novel].characters) : []
+  );
+  if (character) console.log(novels[novel].characters[character]);
   return (
     <main id="codex">
       <div className="selectors">
-        <select className="novel" id="novels">
-          <option value="erha">erha</option>
-        </select>
-        <select className="characters" id="characters">
-          <option value="erha-shi_mei">shi mei</option>
-          <option value="erha-song_qiutong">song qiutong</option>
-        </select>
+        <NovelDropdown />
+        {novel && <CharaDropdown />}
       </div>
       <Character />
     </main>
