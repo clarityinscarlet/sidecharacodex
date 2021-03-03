@@ -11,7 +11,7 @@ const Codex = () => {
     'characters',
     novel ? Object.keys(novels[novel].characters) : []
   );
-  if (character) console.log(novels[novel].characters[character]);
+  if (novel && character) console.log(novels[novel].characters[character]);
   return (
     <main id="codex">
       <div className="selectors">
